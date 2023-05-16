@@ -1,0 +1,42 @@
+.container{
+    border: 1px solid gray;
+    background-color: lightgrey;
+    border-radius:10px;
+    width: 170px;    
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.image{
+
+    width: 150px;
+}
+
+.buttonContainer{
+    border: 5px solid rgb(4, 131, 72);
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.buttonContainer button{
+    margin: 1px 1px 4px 0px;
+    border-radius: 20px;
+    background-color: rgb(22, 15, 15);
+    color: white;
+    box-shadow: 0 3px 3px black;
+    &:hover{
+        background-color: red;
+        color: pink;
+    }
+}
+
+.dataContainer{
+    text-align: center;
+    padding: 10px;
+}
+
+.dataContainer h2{
+    margin:2px;
+    font-size: 16px;
+    color: darkslategray;
+}
