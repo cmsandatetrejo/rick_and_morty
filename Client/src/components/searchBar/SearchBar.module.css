@@ -1,0 +1,21 @@
+.container{
+    padding-top: 0 px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.container input{
+    border-radius: 3px;
+    height: 20;
+    margin-right: 2px;
+}
+
+.container button{
+    border-radius: 3px;
+    height: 25px;
+    color:aquamarine;
+    background-color: darkred;
+    box-shadow: 0 5px 5px black;
+    
+    
+}
