@@ -1,8 +1,10 @@
-const server=require('./app');
+const server=require('./app'); //config del server
 const PORT=3001;
+const {conn}= require('./DB_connection'); //config de la BD
 
-server.listen(PORT,()=>{
+server.listen(PORT,async()=>{
     console.log("server raised in port:"+PORT);
+    await conn.sync({force:true})
 });
 
 
